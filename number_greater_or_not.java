@@ -1,4 +1,4 @@
-package com.apnacollege;
+package Greater_Or_Not;
 
 import java.util.Scanner;
 
@@ -13,14 +13,14 @@ public class Main {
            userNumber = sc.nextInt();
 
            if(userNumber == myNumber) {
-               System.out.println("WOOHOO .. CORRECT NUMBER!!!");
+               System.out.println("WOAH.. ITS CORRECT NUMBER!!!");
                break;
            }
            else if(userNumber > myNumber) {
-               System.out.println("your number is too large");
+               System.out.println("your number is too BIG");
            }
            else {
-               System.out.println("your number is too small");
+               System.out.println("your number is too SMALL");
            }
        } while(userNumber >= 0);
 
